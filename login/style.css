@@ -1,0 +1,68 @@
+body{
+    background-image: url("fundo-fluido-azul_53876-114597.jpg");
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100%;
+}
+.login{
+    background-color:#ffffff10;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        width: 700px;
+        border: 2px solid #ffffff20;
+        backdrop-filter: blur(10px);
+        height: 500px;
+}
+.emailimg{
+    width: 100px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+input{
+    display: flex;
+    /* text-align: center;
+    align-items: center; */
+    margin: 20px;
+    width: 85%;
+    padding: 20px;
+    border: 0;
+    border-bottom: 2px solid #0d009c;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    /* border-radius: 0; */
+    
+}
+button {
+    padding: 18px 50px;
+    border: 0;
+   margin: 20px 0;
+    border-radius: 100px;
+    background-color: #38aefd;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
